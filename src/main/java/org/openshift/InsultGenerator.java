@@ -33,6 +33,7 @@ public class InsultGenerator {
             stmt.close();
 
         } catch (Exception e) {
+            e.printStackTrace();
             return "Database Problem!";
         }
         return theInsult;
